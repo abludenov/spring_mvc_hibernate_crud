@@ -1,6 +1,5 @@
 package ru.jm.spring_mvc_hibernate.service;
 
-
 import ru.jm.spring_mvc_hibernate.entity.User;
 
 import java.util.List;

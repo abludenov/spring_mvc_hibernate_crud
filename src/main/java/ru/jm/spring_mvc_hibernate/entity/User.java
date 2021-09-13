@@ -1,6 +1,5 @@
 package ru.jm.spring_mvc_hibernate.entity;
 
-
 import javax.persistence.*;
 
 @Table(name = "user")
