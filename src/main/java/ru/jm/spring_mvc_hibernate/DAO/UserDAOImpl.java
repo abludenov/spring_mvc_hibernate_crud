@@ -4,6 +4,7 @@ import org.springframework.stereotype.Repository;
 import ru.jm.spring_mvc_hibernate.entity.User;
 
 import javax.persistence.EntityManager;
+import javax.persistence.LockModeType;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.util.List;
