@@ -12,12 +12,12 @@ import javax.validation.Valid;
 
 @Controller
 @RequestMapping("/users")
-public class UserControllerV2 {
+public class UserController {
 
     private final UserService userService;
 
     @Autowired
-    public UserControllerV2(UserService userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 
